@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="647bc229-1b61-4d99-ae06-76cf10c5b15c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/YFinance/Controllers/PortfolioController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Models/Portfolio.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Models/PortfolioViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Services/IPortfolioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Services/PortfolioService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Views/Portfolio/AddSnapshotPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YFinance/Views/Portfolio/Index.cshtml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="520053836">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="9" />
+          <entry key="cshtml" value="7" />
+          <entry key="css" value="1" />
+          <entry key="gitignore" value="1" />
+          <entry key="http" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="9" />
+          <entry key="CSS" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Razor" value="7" />
+          <entry key="Scratch" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="cs" value="1280" />
+          <entry key="cshtml" value="279" />
+          <entry key="css" value="22" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="C#" value="1280" />
+          <entry key="CSS" value="22" />
+          <entry key="Razor" value="279" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.kubernetes.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Controllers/PortfolioController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="393">
+              <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+              <folding>
+                <marker date="1540126833160" expanded="false" signature="6:109" ph="..." />
+                <marker date="1540126833160" expanded="true" signature="141:1230" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="193:1228" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="333:403" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="476:718" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="621:674" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="839:1222" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="886:964" ph="{...}" />
+                <marker date="1540126833160" expanded="true" signature="1079:1165" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Services/IPortfolioService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <marker date="1540126833155" expanded="false" signature="6:52" ph="..." />
+                <marker date="1540126833155" expanded="true" signature="81:253" ph="{...}" />
+                <marker date="1540126833155" expanded="true" signature="122:251" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Models/Portfolio.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+              <folding>
+                <marker date="1539985166795" expanded="false" signature="6:47" ph="..." />
+                <marker date="1539985166795" expanded="true" signature="74:444" ph="{...}" />
+                <marker date="1539985166795" expanded="true" signature="103:442" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/YFinance/Services/PortfolioService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
+              <folding>
+                <marker date="1540127936064" expanded="false" signature="6:211" ph="..." />
+                <marker date="1540127936064" expanded="true" signature="240:7188" ph="{...}" />
+                <marker date="1540127936064" expanded="true" signature="296:7186" ph="{...}" />
+                <marker date="1540127936064" expanded="true" signature="421:473" ph="{...}" />
+                <marker date="1540127936064" expanded="true" signature="540:677" ph="{...}" />
+                <marker date="1540127936064" expanded="true" signature="751:7180" ph="{...}" />
+                <marker date="1540127936064" expanded="true" signature="2904:3045" ph="/* using (var context = new ApplicationDbContext()) ... */" />
+                <marker date="1540127936064" expanded="true" signature="3114:3202" ph="/* Adds a portfolio ... */" />
+                <marker date="1540127936064" expanded="true" signature="3608:7040" ph="/* List&lt;Stock&gt; stock = new List&lt;Stock&gt;(); ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+              <folding>
+                <marker date="1540049459070" expanded="false" signature="6:483" ph="..." />
+                <marker date="1540049459070" expanded="true" signature="530:2561" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="589:652" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="875:1703" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="948:1225" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="1891:2555" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="1938:2059" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="2076:2191" ph="{...}" />
+                <marker date="1540049459070" expanded="true" signature="2372:2543" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Data/ApplicationDbContext.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+              <folding>
+                <marker date="1540051333519" expanded="false" signature="6:183" ph="..." />
+                <marker date="1540051333519" expanded="true" signature="208:480" ph="{...}" />
+                <marker date="1540051333519" expanded="true" signature="268:478" ph="{...}" />
+                <marker date="1540051333519" expanded="true" signature="386:406" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/Index.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+              <folding>
+                <marker date="1540056276041" expanded="true" signature="27:73" ph="@..." />
+                <marker date="1540056276041" expanded="true" signature="193:281" ph="&lt;div.../&gt;" />
+                <marker date="1540056276041" expanded="true" signature="287:1020" ph="&lt;table.../&gt;" />
+                <marker date="1540056276041" expanded="true" signature="329:605" ph="&lt;thead.../&gt;" />
+                <marker date="1540056276041" expanded="true" signature="345:588" ph="&lt;tr.../&gt;" />
+                <marker date="1540056276041" expanded="true" signature="615:1007" ph="@..." />
+                <marker date="1540056276041" expanded="true" signature="653:1007" ph="{...}" />
+                <marker date="1540056276041" expanded="true" signature="676:997" ph="&lt;tr.../&gt;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/AddSnapshotPartial.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/YFinance/Models/PortfolioViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding>
+                <marker date="1539985373922" expanded="true" signature="63:126" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/YFinance/Models/PortfolioViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Services/PortfolioService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/AddSnapshotPartial.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Services/IPortfolioService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Controllers/PortfolioController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/YFinance/Models/Portfolio.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/YFinance/Models/.gitignore" />
+        <option value="$PROJECT_DIR$/YFinance/Models/PortfolioViewModel.cs" />
+        <option value="$PROJECT_DIR$/YFinance/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/YFinance/Models/Portfolio.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Services/FakePortfolioService.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Controllers/StockController.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Views/Portfolio/Page1.cshtml" />
+        <option value="$PROJECT_DIR$/YFinance/Pages/Stock/Index.cshtml" />
+        <option value="$PROJECT_DIR$/YFinance/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/YFinance/Startup.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Views/Portfolio/AddPortfolioPartial.cshtml" />
+        <option value="$PROJECT_DIR$/YFinance/Views/Portfolio/Index.cshtml" />
+        <option value="$PROJECT_DIR$/YFinance/Services/IPortfolioService.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Controllers/PortfolioController.cs" />
+        <option value="$PROJECT_DIR$/YFinance/Services/PortfolioService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="826" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="YFinance" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="YFinance" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="YFinance" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/YFinance/app.db" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/YFinance/bin/Debug/netcoreapp2.1/YFinance.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/YFinance" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="https://localhost:5001;http://localhost:5000" />
+      </envs>
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/YFinance/YFinance.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.1" />
+      <browser start="true" url="https://localhost:5001" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="647bc229-1b61-4d99-ae06-76cf10c5b15c" name="Default Changelist" comment="" />
+      <created>1539984409837</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539984409837</updated>
+      <workItem from="1539984411019" duration="10926000" />
+      <workItem from="1540125479349" duration="1556000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12482000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="REST Client" order="12" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.28996283" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="15" weight="0.32961586" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/YFinance/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="333" column="14" selection-start-line="333" selection-start-column="14" selection-end-line="333" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/wwwroot/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Pages/Stock/Index.cshtml" />
+    <entry file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/Page1.cshtml" />
+    <entry file="file://$PROJECT_DIR$/YFinance/Services/FakePortfolioService.cs" />
+    <entry file="file://$PROJECT_DIR$/YFinance/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="35" column="83" selection-start-line="35" selection-start-column="83" selection-end-line="35" selection-end-column="83" />
+          <folding>
+            <marker date="1540045964202" expanded="true" signature="16:3513" ph="&lt;html.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="23:842" ph="&lt;head.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="190:380" ph="&lt;environment.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="385:834" ph="&lt;environment.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="843:3505" ph="&lt;body.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="854:2067" ph="&lt;nav.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="915:2056" ph="&lt;div.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="951:1464" ph="&lt;div.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="995:1339" ph="&lt;button.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="1477:2041" ph="&lt;div.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="1532:1973" ph="&lt;ul.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2119:2280" ph="&lt;div.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2201:2269" ph="&lt;footer.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2286:2540" ph="&lt;environment.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2545:3449" ph="&lt;environment.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2589:2937" ph="&lt;script.../&gt;" />
+            <marker date="1540045964202" expanded="true" signature="2946:3355" ph="&lt;script.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="40" column="55" selection-start-line="40" selection-start-column="55" selection-end-line="40" selection-end-column="55" />
+          <folding>
+            <marker date="1540049459070" expanded="false" signature="6:483" ph="..." />
+            <marker date="1540049459070" expanded="true" signature="530:2561" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="589:652" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="875:1703" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="948:1225" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="1891:2555" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="1938:2059" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="2076:2191" ph="{...}" />
+            <marker date="1540049459070" expanded="true" signature="2372:2543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="68" selection-start-line="10" selection-start-column="68" selection-end-line="10" selection-end-column="68" />
+          <folding>
+            <marker date="1540056276041" expanded="true" signature="27:73" ph="@..." />
+            <marker date="1540056276041" expanded="true" signature="193:281" ph="&lt;div.../&gt;" />
+            <marker date="1540056276041" expanded="true" signature="287:1020" ph="&lt;table.../&gt;" />
+            <marker date="1540056276041" expanded="true" signature="329:605" ph="&lt;thead.../&gt;" />
+            <marker date="1540056276041" expanded="true" signature="345:588" ph="&lt;tr.../&gt;" />
+            <marker date="1540056276041" expanded="true" signature="615:1007" ph="@..." />
+            <marker date="1540056276041" expanded="true" signature="653:1007" ph="{...}" />
+            <marker date="1540056276041" expanded="true" signature="676:997" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Views/Portfolio/AddSnapshotPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Models/PortfolioViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1539985373922" expanded="true" signature="63:126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Data/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+          <folding>
+            <marker date="1540051333519" expanded="false" signature="6:183" ph="..." />
+            <marker date="1540051333519" expanded="true" signature="208:480" ph="{...}" />
+            <marker date="1540051333519" expanded="true" signature="268:478" ph="{...}" />
+            <marker date="1540051333519" expanded="true" signature="386:406" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Services/IPortfolioService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1540126833155" expanded="false" signature="6:52" ph="..." />
+            <marker date="1540126833155" expanded="true" signature="81:253" ph="{...}" />
+            <marker date="1540126833155" expanded="true" signature="122:251" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Models/Portfolio.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+          <folding>
+            <marker date="1539985166795" expanded="false" signature="6:47" ph="..." />
+            <marker date="1539985166795" expanded="true" signature="74:444" ph="{...}" />
+            <marker date="1539985166795" expanded="true" signature="103:442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Controllers/PortfolioController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="37" column="70" selection-start-line="37" selection-start-column="70" selection-end-line="37" selection-end-column="70" />
+          <folding>
+            <marker date="1540126833160" expanded="false" signature="6:109" ph="..." />
+            <marker date="1540126833160" expanded="true" signature="141:1230" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="193:1228" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="333:403" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="476:718" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="621:674" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="839:1222" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="886:964" ph="{...}" />
+            <marker date="1540126833160" expanded="true" signature="1079:1165" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/rest-api.http">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/YFinance/Services/PortfolioService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="167" column="12" selection-start-line="167" selection-start-column="12" selection-end-line="167" selection-end-column="12" />
+          <folding>
+            <marker date="1540127936064" expanded="false" signature="6:211" ph="..." />
+            <marker date="1540127936064" expanded="true" signature="240:7188" ph="{...}" />
+            <marker date="1540127936064" expanded="true" signature="296:7186" ph="{...}" />
+            <marker date="1540127936064" expanded="true" signature="421:473" ph="{...}" />
+            <marker date="1540127936064" expanded="true" signature="540:677" ph="{...}" />
+            <marker date="1540127936064" expanded="true" signature="751:7180" ph="{...}" />
+            <marker date="1540127936064" expanded="true" signature="2904:3045" ph="/* using (var context = new ApplicationDbContext()) ... */" />
+            <marker date="1540127936064" expanded="true" signature="3114:3202" ph="/* Adds a portfolio ... */" />
+            <marker date="1540127936064" expanded="true" signature="3608:7040" ph="/* List&lt;Stock&gt; stock = new List&lt;Stock&gt;(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,40 @@
+@model PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Your Snapshots";
+}
+
+<div class="panel panel-default snapshot-panel">
+    <div class="panel-heading">@ViewData["Snapshots"]</div>
+    
+    <div>
+        @await Html.PartialAsync("AddSnapshotPartial", new Portfolio())
+    </div>
+
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            @* <td>Portfolio ID</td> *@
+            <td>Date</td>
+            <td>Net Worth</td>
+            <td>Day Gain</td>
+            <td>Day Gain %</td>
+            <td>Total Gain</td>
+            <td>Total Gain %</td>
+        </tr>
+        </thead>
+
+        @foreach (var item in Model.Snapshots)
+        {
+            <tr>
+                @* <td>@item.PortfolioId</td> *@
+                <td>@item.Date</td>
+                <td>@item.NetWorth</td>
+                <td>@item.DayGain</td>
+                <td>@item.DayGainPercent</td>
+                <td>@item.TotalGain</td>
+                <td>@item.TotalGainPercent</td>
+            </tr>
+        }
+    </table>
+</div>
