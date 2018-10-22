@@ -1,23 +1,31 @@
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using YFinance.Models;
 using YFinance.Services;
 
 namespace YFinance.Controllers
 {
+    [Authorize]
     public class PortfolioController : Controller
     {
         private readonly IPortfolioService _portfolioService;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public PortfolioController(IPortfolioService portfolioService)
+        public PortfolioController(IPortfolioService portfolioService, UserManager<IdentityUser> userManager)
         {
             _portfolioService = portfolioService;
+            _userManager = userManager;
         }
         
         // GET
         public async Task<IActionResult> Index()
         {
-            var snapshots = await _portfolioService.GetSnapshotAsync();
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return Challenge();
+            
+            var snapshots = await _portfolioService.GetSnapshotAsync(currentUser);
 
             var model = new PortfolioViewModel()
             {
@@ -35,13 +43,21 @@ namespace YFinance.Controllers
                 return RedirectToAction("Index");
             }
 
-            var successful = await _portfolioService.AddSnapshotAsync(newPortfolio);
+            var currentUser = await _userManager.GetUserAsync(User);
+            if (currentUser == null) return Challenge();
+
+            var successful = await _portfolioService.AddSnapshotAsync(newPortfolio, currentUser);
             if (!successful)
             {
                 return BadRequest("Could not add item.");
             }
 
             return RedirectToAction("Index");
+        }
+
+        public string Stocks()
+        {
+            return "This is the stocks action method...";
         }
     }
 }

@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
@@ -18,14 +20,18 @@ namespace YFinance.Services
             _context = context;
         }
         
-        public async Task<Portfolio[]> GetSnapshotAsync()
+        public async Task<Portfolio[]> GetSnapshotAsync(IdentityUser user)
         {
-            var snapshots = await _context.Portfolios
+//            var snapshots = await _context.Portfolios
+//                .ToArrayAsync();
+//            return snapshots;
+
+            return await _context.Portfolios
+                .Where(x => x.UserId == user.Id)
                 .ToArrayAsync();
-            return snapshots;
         }
 
-        public async Task<bool> AddSnapshotAsync(Portfolio newPortfolio)
+        public async Task<bool> AddSnapshotAsync(Portfolio newPortfolio, IdentityUser user)
         {
             ChromeOptions options = new ChromeOptions();
             options.AddArguments("--headless");
@@ -90,6 +96,7 @@ namespace YFinance.Services
             newPortfolio.TotalGain = totalGain;
             newPortfolio.TotalGainPercent = totalGainPercent;
             newPortfolio.Date = DateTime.Now;
+            newPortfolio.UserId = user.Id;
 //                };
 
             _context.Portfolios.Add(newPortfolio);

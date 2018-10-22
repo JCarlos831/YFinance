@@ -5,6 +5,7 @@ namespace YFinance.Models
 {
     public class Portfolio
     {
+        public string UserId { get; set; }
         public int PortfolioId { get; set; }
         public string NetWorth { get; set; }
         public string DayGain { get; set; }
